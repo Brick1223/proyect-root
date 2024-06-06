@@ -1,0 +1,27 @@
+{
+  "name": "proyect-root",
+  "version": "1.0.0",
+  "description": "Este es un servicio web para el registro e inicio de sesión de usuarios, desarrollado con Node.js, Express y MongoDB. El servicio permite a los usuarios registrarse y autenticarse mediante un nombre de usuario y una contraseña.",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node Server.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.9.8",
+    "nodemon": "^3.1.1",
+    "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.6"
+  }
+}
